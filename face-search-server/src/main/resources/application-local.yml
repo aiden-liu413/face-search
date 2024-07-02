@@ -83,9 +83,9 @@ spring:
     druid:
       # 主库数据源
       master:
-        url: jdbc:mysql://visual-face-search-mysql:3306/visual_face_search?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
-        username: root
-        password: root
+        url: jdbc:mysql://10.2.3.51:18103/visual_face_search?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+        username: Rootmaster
+        password: Rootmaster@777
       slave:
         # 从数据源开关/默认关闭
         enabled: false

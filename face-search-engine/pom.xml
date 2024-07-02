@@ -11,6 +11,10 @@
 
     <artifactId>face-search-engine</artifactId>
 
+    <properties>
+        <elasticsearch.version>7.12.1</elasticsearch.version>
+    </properties>
+
 
     <dependencies>
         <dependency>
@@ -22,5 +26,14 @@
             <groupId>org.opensearch.client</groupId>
             <artifactId>opensearch-rest-high-level-client</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
